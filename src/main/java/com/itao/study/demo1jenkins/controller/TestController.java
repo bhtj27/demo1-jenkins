@@ -20,7 +20,7 @@ public class TestController {
 
     @RequestMapping("/test1")
     public String test1(){
-        int num = random.nextInt(99999);
+        int num = random.nextInt(999999999);
         log.info("test.test1 num = {}",num);
         return num+"";
     }
